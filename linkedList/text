@@ -1,0 +1,22 @@
+전제
+this.head = null
+this.count = 0
+
+insertAt(0,0); 실행
+newNode(0,0);
+만약 index가 0인 경우
+newNode.next = this.head;
+// Node {data: aq0, next: null}
+this.head = newNode;
+
+this.count = 1
+
+////////////////////
+insertAt(1,1) 실행
+newNode(1,1);
+currentNode = this.head 처음 노트부터 삽입할 노드까지 실행할 예정
+currentNode data:0, next:null
+for문 안탐
+
+newNode.next = currendNode.next , 즉 next:null
+currentNode.next = newNode , 즉 Node(data: 0, next: newNode(1,1))
